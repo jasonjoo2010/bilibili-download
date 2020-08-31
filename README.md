@@ -4,6 +4,16 @@ Download videos from bilibili.com supporting flv/dash(need post processing)/mp4.
 
 支持从bilibili下载视频，支持flv/dash(需要用ffmpeg后处理)/mp4格式。
 
+## Complile
+
+```shell
+go build
+```
+
+Binary file `bilibili-download` will be generated in current work directory.
+
+根目录即可生成`bilibili-download`.
+
 ## Usage
 
 ```shell
@@ -12,7 +22,7 @@ bilibili-download <video url>
 
 Example:
 
-```
+```shell
 bilibili-download https://www.bilibili.com/video/BV1bs411s7kR
 ```
 

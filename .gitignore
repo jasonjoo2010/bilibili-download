@@ -1,2 +1,6 @@
 .DS_Store
 .history/
+*.m4s
+*.mp4
+*.flv
+bilibili-download
